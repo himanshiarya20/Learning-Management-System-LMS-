@@ -32,7 +32,7 @@ public class Excption {
 		}
 		else
 		{
-			System.out.println("Test Case is fail");
+			System.out.println("Test Case fail");
 		}
 		
 		d2.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
